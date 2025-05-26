@@ -1,0 +1,195 @@
+*{
+
+    font-family: arial,sans-serif;
+    margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    border-bottom: #1e90ff 5px solid;
+}
+h1{
+    color: #ffff;
+    padding-left: 150px;
+    border-left: 70px;
+    font-weight: 15;
+    align-items: center;
+}
+span{
+    color: #000ff0;
+}
+nav{
+    text-align: right;
+    padding-right: 180px;
+}
+a{
+    padding: 15px;
+    color:#fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1rem;
+}
+.inicio{
+    color: #000ff0;
+}
+body{
+    background-color: #ffff;
+}
+.fondo {
+    background-image: url(../assets/images/cabecera.jpg);
+    background-size: cover;
+    background-position: 70% 40%;
+    height: 500px;
+}
+.text{
+    text-align: center;
+    margin: 0px;
+    padding: 50px;
+    color: #ffff;
+    font-size: 2rem;
+}
+.medio{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+form{
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+}
+.email{
+    padding: 10px;
+    width: 15rem;
+}
+.suscribete{
+    background-color: #ff4500;
+    padding: 10px;
+    width: 10rem;
+}
+.h{
+    color: #ffff;
+    text-align: center;
+}
+.form{
+    text-align: center;
+    padding-left: 600px;
+}
+table{
+    align-items: center;
+    display: flex;
+    border: 20px;
+    padding: 30px;
+    padding-left: 200px;
+}
+th{
+    padding: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+h3{
+    text-align: center;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+.nosotros{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 150px;
+}
+.Nosotros{
+   margin: 5px;
+    text-align: left;
+}
+.article{
+    background-color: #333;
+    display: block;
+    width: 800px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    color: #ffff;
+}
+.image{
+    display: block;
+    width: 800px;
+    margin-bottom: 20px;
+}
+.aside{
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+aside{
+    height: 215px;
+    width: 380px;
+    background-color: #333;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.servi{
+    padding-bottom: 30px;
+}
+h4{
+    text-align: left;
+    padding-bottom: 10px;
+
+}
+.cuadros{
+    background-color: #c8c8c8d9;
+    border: 2px;
+    border-color: #0000;
+    margin-bottom: 5px;
+    padding: 30px;
+}
+.con{
+    color: #0000;
+}
+.contacto{
+    width: 810px;
+    height: 35px;
+}
+.fondoContact{
+     background-image: url(../assets/images/mapaGoogle.png);
+    background-size:contain;
+    background-position: 80% 70%;
+    height: 300px;
+    width: 340px;
+    margin-left: -20px;
+    
+}
+.texto{
+    width: 810px;
+    height: 180px;
+
+}
+.enviar{
+     width: 810px;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: #ff4500;
+}
+footer{
+    padding: 30px;
+    border: 20px;
+    background-color: #1e90ff;
+    text-align: center;
+}
+.footer{
+    color: #ffff;
+    font-size: 1.5rem;
+}
